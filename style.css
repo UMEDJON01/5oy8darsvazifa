@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f1f1;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.uzbek,
+.english {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #13ad1d;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(218, 16, 16, 0.1);
+  margin: 0 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: xx-large;
+  background-color: #32e73e;
+  border-radius: 27px;
+  border: 5px solid #edf5ed;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  margin-bottom: 9px;
+  background-color: yellow;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #fff;
+}
